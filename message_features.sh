@@ -15,7 +15,7 @@ get_system_info() {
 # Función para obtener la dirección IP pública
 get_public_ip() {
     echo "***** Dirección IP Pública *****"
-    curl -s ifconfig.me
+    curl ipinfo.io/ip
 }
 
 # Función para obtener usuarios logueados a través de SSH
